@@ -6,8 +6,10 @@ require_relative '../lib/move.rb'
 
 puts "Lets play Tic Tac Toe"
 
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+
 puts "Welcome to Tic Tac Toe!"
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+puts board
 puts "Enter the number from 1 to 9"
 user_input = gets.to_i
 
@@ -21,7 +23,7 @@ input_to_index(user_input)
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 index = input_to_index(user_input)
-def move(board, index, symbol)
+def move(board, index, symbol="X")
 
 board[index] = symbol
 end
