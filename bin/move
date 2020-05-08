@@ -7,7 +7,7 @@ require_relative '../lib/move.rb'
 puts "Lets play Tic Tac Toe"
 puts "Welcome to Tic Tac Toe!"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-play(board)
+
 puts board
 puts "Enter the number from 1 to 9"
 user_input = gets.to_i
