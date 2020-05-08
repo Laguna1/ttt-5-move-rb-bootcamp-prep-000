@@ -29,3 +29,4 @@ board[index] = symbol
 end
 move(board, index, symbol)
 
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
