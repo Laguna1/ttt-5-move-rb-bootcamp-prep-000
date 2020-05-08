@@ -4,31 +4,7 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
-puts "Lets play Tic Tac Toe"
-puts "Welcome to Tic Tac Toe!"
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-puts board
-puts "Enter the number from 1 to 9"
-user_input = gets.to_i
-
-def input_to_index(input)
-# convert input to integer and subtract 1.
-  input.to_i - 1
-  # users count from 1, Ruby from 0
-end
-
-input_to_index(user_input)
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-index = input_to_index(user_input)
-def move(board, index, symbol="X")
-
-board[index] = symbol
-end
-move(board, index, symbol)
-
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Welcome to Tic Tac Toe!"
